@@ -132,3 +132,13 @@ body {
 .box-shadow {
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
+.m-top{
+    margin-top:20px;
+}
+
+.pt-2 {
+  padding: $spacer-y * .5 !important;
+}
+.mt-2 {
+  margin: $spacer-y * .5 !important;
+}
