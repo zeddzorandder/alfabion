@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alfa Bion</title>
+    <!--Font-->
+
+    <!--Style-->
+    <link href="../public/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../public/stylesheets/biom.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-nav border-bottom box-shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Alfa Bion</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="index.html">Početna</a>
+            <a class="p-2 text-dark" href="#">Usluge</a>
+            <a class="p-2 text-dark" href="proizvodi.html">Uređaji</a>
+            <a class="p-2 text-dark" href="#">Kontakt</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="#">Ulogujte se</a>
+    </div> -->
+
+
+
+    <!-- Navbar (TO BE REMOVED AFTER node.js SUPPORT)-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light clr">
+        <a class="navbar-brand" href="#">Alfa Bion</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Početna<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="usluge.html">Usluge</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="proizvodi.html">Uređaji</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navbar-->
+
+
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Uređaji</h1>
+        <p class="lead">Detaljnije o našem asortimanu</p>
+    </div>
+
+
+    <div class="container">
+
+
+
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="../public/images/product.jpg" alt="Card image">
+
+            <div class="card-body">
+                <h4 class="card-title">Uredjaj 1</h4>
+                <p class="card-text">Cena: 1000€</p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Detaljnije
+                </button>
+                <!-- Button trigger modal -->
+
+                <!-- Modal Ovo treba da se doda u svaku instancu card klase -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+
+
+            </div>
+        </div>
+         
+
+
+
+        <!--Cards-->
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="../public/images/product.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Uredjaj 2</h4>
+                <p class="card-text">Cena: 1000€</p>
+                <a href="#" class="btn btn-primary">Detaljnije</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="../public/images/product.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Uredjaj 3</h4>
+                <p class="card-text">Cena: 1000€</p>
+                <a href="#" class="btn btn-primary">Detaljnije</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="../public/images/product.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Uredjaj 4</h4>
+                <p class="card-text">Cena: 1000€</p>
+                <a href="#" class="btn btn-primary">Detaljnije</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="../public/images/product.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Uredjaj 5</h4>
+                <p class="card-text">Cena: 1000€</p>
+                <a href="#" class="btn btn-primary">Detaljnije</a>
+            </div>
+        </div>
+        <div class="card" style="width:400px">
+            <img class="card-img-top" src="../public/images/product.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Uredjaj 6</h4>
+                <p class="card-text">Cena: 1000€</p>
+                <a href="#" class="btn btn-primary">Detaljnije</a>
+            </div>
+        </div>  
+        <!--Cards-->
+
+    </div>
+<!--End of container -->
+
+
+    <!--footer-->
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="footer1">
+                <p>PRATITE NAS NA DRUSTVENIM MREZAMA</p>
+                <p id="under">Saznajte novosti iz sveta zdravlja i ucestvujte u nasim akcijama</p>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a class="google" href="" target="_blank" title="Google Plus">
+                    <i class="fab fa-google-plus-square"></i>
+                </a>
+                <a class="youtube" href="" target="_blank" title="You Tube">
+                    <i class="fab fa-youtube-square"></i>
+                </a>
+                <a class="linkedin" href="" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </footer>
+    <!--footer-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../public/javascripts/bootstrap.min.js"></script>
+</body>
+
+</html>
