@@ -14,51 +14,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="52" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proizvodi.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/proizvodi.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proizvodi.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/proizvodi.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="52" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="proizvodi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/proizvodi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <file leaf-file-name="proizvodi.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/proizvodi.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="5">
+              <caret line="44" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detalji.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/detalji.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detalji.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/detalji.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connection.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../psajt/routes/connection.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -68,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/public/stylesheets/biom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="428">
-              <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
+              <caret line="148" column="19" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -77,8 +97,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="391">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -87,18 +107,8 @@
       <file leaf-file-name="www" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1989">
-              <caret line="117" column="89" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -110,13 +120,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/html/css/biom.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/biom.css" />
-        <option value="$PROJECT_DIR$/routes/proizvodi.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/html/proizvodi.html" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
+        <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/bin/www" />
+        <option value="$PROJECT_DIR$/routes/proizvodi.js" />
         <option value="$PROJECT_DIR$/views/proizvodi.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/biom.css" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/detalji.ejs" />
+        <option value="$PROJECT_DIR$/routes/detalji.js" />
       </list>
     </option>
   </component>
@@ -164,11 +179,6 @@
             <path>
               <item name="AlfaBion" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlfaBion" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlfaBion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlfaBion" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,14 +198,16 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\golica\WebstormProjects\AlfaBion\public\javascripts" />
       <recent name="C:\Users\golica\WebstormProjects\AlfaBion\public\images" />
+      <recent name="C:\Users\golica\WebstormProjects\AlfaBion\public\javascripts" />
       <recent name="C:\Users\golica\WebstormProjects\AlfaBion\public\stylesheets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\golica\WebstormProjects\AlfaBion\public\images" />
       <recent name="C:\Users\golica\WebstormProjects\AlfaBion\html" />
     </key>
   </component>
@@ -213,13 +225,19 @@
   </component>
   <component name="RunManager" selected="Node.js.bin\www">
     <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$" />
-    <list size="2">
+    <configuration name="detalji.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="detalji.js" working-dir="$PROJECT_DIR$/routes" />
+    <configuration name="proizvodi.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="proizvodi.js" working-dir="$PROJECT_DIR$/routes" />
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.proizvodi.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.detalji.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.detalji.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.proizvodi.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
       </list>
     </recent_temporary>
   </component>
@@ -236,12 +254,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519474377480</updated>
-      <workItem from="1519474380715" duration="1792000" />
+      <workItem from="1519474380715" duration="10545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1792000" />
+    <option name="totallyTimeSpent" value="10545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -278,14 +296,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -302,34 +312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/biom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="142" column="14" lean-forward="false" selection-start-line="142" selection-start-column="14" selection-end-line="142" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/proizvodi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="52" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -342,26 +328,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/www">
+    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/biom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="148" column="19" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../psajt/routes/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/proizvodi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/proizvodi.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="5">
+          <caret line="44" column="38" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="74" column="19" lean-forward="false" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="74" column="12" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/detalji.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/detalji.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>

@@ -142,3 +142,9 @@ body {
 .mt-2 {
   margin: 2px;
 }
+
+.fill {
+    width: 384px;
+    height: 216px;
+   object-fit: fill;
+}

@@ -14,13 +14,13 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-connection.query('SELECT * from product', function(err, rows) {
+connection.query('SELECT * from product WHERE id = ${req.params.id}', function(err, rows) {
     if (!err){
 
         console.log(rows);
         router.get('/', function(req, res, next) {
-
-            res.render('proizvodi', { title: 'Alfa Bion', data: rows });
+            console.log('boris');
+            res.render('detalji', { title: 'Alfa Bion', data: rows });
         });
     }
 
