@@ -22,9 +22,7 @@
 
 
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-    <h1 class="display-4"><%= data.forEach()function(product){ %>
-
-       <% } %></h1>
+    <h1 class="display-4"><%= id %></h1>
     <p class="lead">Detaljnije o našem asortimanu</p>
 </div>
 
@@ -34,49 +32,28 @@
 
 
     <% if (data) { %>
-    <% data.forEach(function(product){ %>
+    <% data.forEach(function(product){
+        if(product.id == id){
+
+    %>
 
 
     </tr>
 
-    <div class="card" style="width:400px">
-        <img class="card-img-top fill" src="/images/<%= product.img %>" alt="Card image">
+    <div class="container" >
+        <img class="card-img-top fill" src="/images/<%= product.img %>">
         <div class="card-body">
             <h4 class="card-title"><%= product.title %></h4>
             <p class="card-text">Cena: <%= product.price %> RSD</p>
-
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                Detaljnije
-            </button>
-            <!-- Button trigger modal -->
-
-            <!-- Modal Ovo treba da se doda u svaku instancu card klase -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel"><%= product.title %></h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <%= product.description %>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal -->
-
-
+            <p class="card-text">Cena: <%= product.description %> RSD</p>
         </div>
+        <a href="#">
+            <button type="button" class="btn btn-primary">
+                Kupi
+            </button>
+        </a>
     </div>
-    <% }) %>
+    <% }}) %>
     <% } %>
 
 
