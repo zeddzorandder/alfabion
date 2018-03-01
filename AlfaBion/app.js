@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var proizvodi = require('./routes/proizvodi');
+var login = require('./routes/login');
 
 /* konekcija na bazu */
 var mysql      = require('mysql');
@@ -38,23 +39,27 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/proizvodi', proizvodi);
-
-app.get('/detalji/:id', function(req, res) {
-
-    connection.query('SELECT * from product', function(err, rows) {
+app.get('/login', function(req, res) {
+    connection.query('SELECT * from users', function(err, rows) {
         if (!err){
-            var id = req.param("id");
-            res.render('detalji', { title: 'Alfa Bion', id: id, data: rows });
-
+            res.render('login', { title: 'Alfa Bion', data: rows });
         }
         else{
             console.log('Error while performing Query.');
         }
-
-
     });
+});
 
-
+app.get('/detalji/:id', function(req, res) {
+    connection.query('SELECT * from product', function(err, rows) {
+        if (!err){
+            var id = req.param("id");
+            res.render('detalji', { title: 'Alfa Bion', id: id, data: rows });
+        }
+        else{
+            console.log('Error while performing Query.');
+        }
+    });
 });
 
 // catch 404 and forward to error handler
