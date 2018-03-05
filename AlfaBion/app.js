@@ -62,6 +62,39 @@ app.get('/detalji/:id', function(req, res) {
     });
 });
 
+app.get('/admin', function(req, res) {
+    res.render('admin', { title: 'Alfa Bion' });
+});
+
+app.get('/submit', function(req, res) {
+    var sql = "INSERT INTO product (title, description, img, price, category) VALUES ('boris', 'description', 'lsd.jpg', 1000, 'Droge')";
+    connection.query(sql, function (err, result) {
+        if (!err) {
+            res.render('admin', {title: 'Alfa Bion'});
+        }
+        else {
+            console.log(err);
+        }
+    });
+});
+
+app.get('/create', function(req, res) {
+
+            res.render('create', {title: 'Alfa Bion'});
+
+});
+
+app.get('/list', function(req, res) {
+    connection.query('SELECT * from product', function(err, rows) {
+        if (!err){
+            res.render('list', { title: 'Alfa Bion', data: rows });
+        }
+        else{
+            console.log('Error while performing Query.');
+        }
+    });
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
