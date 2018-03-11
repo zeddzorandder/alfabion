@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+    <!-- Font -- >
+
+  <!-- Style -->
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/backend.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading -->
+
+    <h1 class="my-4">Admin
+        <small><%= title %></small>
+    </h1>
+
+
+    <div class="row">
+        <div class="col-lg-4">
+        </div>
+        <div class="col-lg-4">
+            <form role="form" action="/create/submit" method="post">
+                <div class="form-group">
+                    <h4>Title</h4>
+                    <input class="form-control" placeholder="Title" type="text" name="title">
+                </div>
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea class="form-control" rows="3" type="text" name="description"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Price</label>
+                    <input class="form-control" placeholder="Price" type="text" name="price">
+                </div>
+
+                <div class="form-group">
+                    <label>Image</label>
+                    <input type="file" type="text" name="img">
+                </div>
+
+                <div class="form-group">
+                    <label>Category</label>
+                    <select class="form-control" type="text" name="category">
+                        <option>Psihodelici</option>
+                        <option>Droge</option>
+                        <option>Nemam pojma</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-default">Submit</button>
+
+                <a href="/admin">
+                <button type="button" class="btn btn-default">Back</button>
+                </a>
+            </form>
+        </div>
+        <!-- /.col-lg-6 (nested) -->
+
+    </div>
+    <!-- /.row (nested) -->
+
+
+</div>
+<!-- /.container -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+</body>
+
+</html>

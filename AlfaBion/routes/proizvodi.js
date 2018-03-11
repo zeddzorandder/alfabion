@@ -17,7 +17,6 @@ connection.connect();
 connection.query('SELECT * from product', function(err, rows) {
     if (!err){
 
-        console.log(rows);
         router.get('/', function(req, res, next) {
 
             res.render('proizvodi', { title: 'Alfa Bion', data: rows });

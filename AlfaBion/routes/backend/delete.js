@@ -12,11 +12,12 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-router.get('/', function(req, res, next) {
-    var sql = "SELECT * from product";
-    connection.query(sql, function(err, rows) {
+router.get('/:id', function(req, res, next) {
+    var sql = "DELETE FROM `product` WHERE `product`.`id` = ?";
+    var id = req.param("id");
+    connection.query(sql ,id , function(err, rows) {
         if (!err) {
-            res.render('list', { title: 'Alfa Bion', data: rows });
+            res.redirect('/list');
         }
         else {
             console.log('Error while performing Query.');
@@ -24,8 +25,6 @@ router.get('/', function(req, res, next) {
 
     });
 });
-
-
 
 
 module.exports = router;

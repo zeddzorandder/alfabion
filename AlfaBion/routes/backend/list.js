@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
     var sql = "SELECT * from product";
     connection.query(sql, function(err, rows) {
         if (!err) {
-            res.render('list', { title: 'Alfa Bion', data: rows });
+            res.render('backend/list', { title: 'Alfa Bion', data: rows });
         }
         else {
             console.log('Error while performing Query.');
@@ -24,8 +24,5 @@ router.get('/', function(req, res, next) {
 
     });
 });
-
-
-
 
 module.exports = router;

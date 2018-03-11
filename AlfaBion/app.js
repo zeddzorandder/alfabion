@@ -8,7 +8,11 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var proizvodi = require('./routes/proizvodi');
-var login = require('./routes/login');
+var login = require('./routes/backend/login');
+var create = require('./routes/backend/create');
+var update = require('./routes/backend/update');
+var del = require('./routes/backend/delete');
+var list = require('./routes/backend/list');
 
 /* konekcija na bazu */
 var mysql      = require('mysql');
@@ -39,10 +43,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/proizvodi', proizvodi);
+app.use('/create', create);
+app.use('/update', update);
+app.use('/delete', del);
+app.use('/list', list);
+
 app.get('/login', function(req, res) {
     connection.query('SELECT * from users', function(err, rows) {
         if (!err){
-            res.render('login', { title: 'Alfa Bion', data: rows });
+            res.render('backend/login', { title: 'Alfa Bion', data: rows });
         }
         else{
             console.log('Error while performing Query.');
@@ -63,37 +72,13 @@ app.get('/detalji/:id', function(req, res) {
 });
 
 app.get('/admin', function(req, res) {
-    res.render('admin', { title: 'Alfa Bion' });
+    res.render('backend/admin', { title: 'Alfa Bion' });
 });
 
-app.get('/submit', function(req, res) {
-    var sql = "INSERT INTO product (title, description, img, price, category) VALUES ('boris', 'description', 'lsd.jpg', 1000, 'Droge')";
-    connection.query(sql, function (err, result) {
-        if (!err) {
-            res.render('admin', {title: 'Alfa Bion'});
-        }
-        else {
-            console.log(err);
-        }
-    });
-});
 
-app.get('/create', function(req, res) {
 
-            res.render('create', {title: 'Alfa Bion'});
 
-});
 
-app.get('/list', function(req, res) {
-    connection.query('SELECT * from product', function(err, rows) {
-        if (!err){
-            res.render('list', { title: 'Alfa Bion', data: rows });
-        }
-        else{
-            console.log('Error while performing Query.');
-        }
-    });
-});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
