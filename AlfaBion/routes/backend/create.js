@@ -1,4 +1,6 @@
 var express = require('express');
+var multer = require('multer');
+var path = require('path');
 var router = express.Router();
 
 /* konekcija na bazu */
@@ -12,15 +14,18 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-/* GET home page. */
+
+
+
 router.get('/', function(req, res, next) {
     res.render('backend/create', {title: 'Alfa Bion'});
 });
 
 router.post('/submit', function (req, res, next) {
 
-    var sql = "INSERT INTO `product` SET ?";
-    var post  = {title: req.body.title, description: req.body.description, img: req.body.img, price:req.body.price, category: req.body.category };
+
+    let sql = "INSERT INTO `product` SET ?";
+    let post  = {title: req.body.title, description: req.body.description, img: req.body.img, price:req.body.price, category: req.body.category };
     connection.query(sql,post, function (err, result) {
         if (!err) {
             res.redirect('/admin');
